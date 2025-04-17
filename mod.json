@@ -1,0 +1,21 @@
+{
+    "Name": "CustomOutlineColors",
+    "Version": "1.0",
+    "Dependencies": {
+        "Northstar.Client": "1.5.0",
+        "Northstar.Settings": "1.2.0"
+    },
+    "ConVars": [
+        {
+            "Name": "outline_width",
+            "DefaultValue": "1.5",
+            "Description": "Толщина окантовки (1.0-3.0)"
+        }
+    ],
+    "ConCommands": [
+        {
+            "Name": "outline_next",
+            "Description": "Переключить цвет окантовки"
+        }
+    ]
+}
